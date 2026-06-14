@@ -1,0 +1,37 @@
+# macOS
+.DS_Store
+
+# 環境変数・秘密情報
+.env
+.env.*
+*.pem
+*.key
+*.p12
+*.pfx
+secrets.*
+credentials
+config.secret.*
+
+# AWS関連
+.aws/
+aws_credentials
+credentials.csv
+
+# Node.js
+node_modules/
+dist/
+build/
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# エディタ・IDE
+.vscode/
+.idea/
+
+# ログ
+*.log
+logs/
